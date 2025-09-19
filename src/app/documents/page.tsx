@@ -99,13 +99,7 @@ export default function DocumentsPage() {
           </div>
         </div>
 
-        <div className="mt-8 p-6 bg-blue-50 rounded-xl">
-          <h3 className="font-bold text-lg mb-2">💡 Astuce</h3>
-          <p className="text-gray-700">
-            Pour ajouter de nouveaux documents, modifiez simplement le tableau <code className="bg-white px-2 py-1 rounded">documents</code> dans le fichier. 
-            Vous pouvez facilement ajouter de nouvelles entrées au fur et à mesure de l'avancement du projet.
-          </p>
-        </div>
+       
       </div>
     </div>
   )

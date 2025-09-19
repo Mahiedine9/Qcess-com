@@ -56,8 +56,8 @@ export default function Navigation() {
   }, [])
 
   const navItems = [
-    { href: '#status', label: 'État Actuel', icon: Clock },
-    { href: '#timeline', label: 'Timeline', icon: Rocket },
+    { href: '/status', label: 'État Actuel', icon: Clock },
+    { href: '/timeline', label: 'Timeline', icon: Rocket },
     { href: '/team', label: 'Équipe', icon: Users },
     { href: '/maquettes', label: 'Maquettes', icon: Palette },
     { href: '/documents', label: 'Documents', icon: FileText },
