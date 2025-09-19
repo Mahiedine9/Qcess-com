@@ -143,7 +143,7 @@ export default function Navigation() {
 
               {/* Bouton GitHub avec animation */}
               <a
-                href="https://github.com/votre-projet"
+                href="https://github.com/Mahiedine9/Qcess-App.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ml-4 relative group"
