@@ -2,6 +2,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+
+
 import Link from 'next/link'
 import { 
   Menu, 
@@ -84,10 +86,7 @@ export default function Navigation() {
             {/* Logo animé */}
             <Link href="/" className="group flex items-center space-x-3 relative">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-lg blur-lg group-hover:blur-xl transition-all duration-300 opacity-70 group-hover:opacity-100" />
-                <div className="relative bg-gradient-to-r from-blue-600 to-cyan-500 text-white p-2.5 rounded-lg transform group-hover:scale-110 transition-transform duration-300">
-                  <Code2 size={24} className="transform group-hover:rotate-12 transition-transform duration-300" />
-                </div>
+                <img src="./logo_Qcess.png" alt="Logo Qcess" className="w-16 h-14 rounded-lg mt-2" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold bg-gradient-to-r from-blue-600 via-sky-500 to-cyan-500 bg-clip-text text-transparent">
