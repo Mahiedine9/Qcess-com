@@ -52,20 +52,28 @@ export const timelineData: TimelineEntry[] = [
 ]
 
 export const teamMembers: TeamMember[] = [
-  {
-    id: '1',
-    name: 'Mahiedine Ferdjoukh',
-    role: 'developpeur Full-Stack',
-    github: 'mahiedine-ferdjoukh'
-  }, 
-  {
-    id: '2',
-    name: 'Aymane essadjidi',
-    role: 'developpeur Full-Stack',
-    github: 'AymaneEssadjidi',
-  }
-  
-]
+    {
+      id: '1',
+      name: 'Mahiedine Ferdjoukh',
+      role: 'développeur Full Stack',
+      avatar: '👨‍💻',
+      skills: ['React Native', 'NextJs', 'DevOps'],
+      github: 'Mahiedine9',
+      linkedin: 'mahiedine-ferdjoukh-071568177'
+    },
+    {
+      id: '2',
+      name: 'Aymane Essadjidi',
+      role: 'Développeur Full Stack',
+      avatar: '👨‍💻',
+      skills: ['Flutter', 'JavaScript', 'Java'],
+      github: 'Essajidi-Aymane',
+      linkedin: 'aymane-essajidi-3a013920b'
+    }
+  ]
+
+
+ 
 
 export const currentStatus: ProjectStatus = {
   phase: 'Conception - Maquettage',

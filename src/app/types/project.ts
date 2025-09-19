@@ -17,6 +17,7 @@ export interface TeamMember {
   avatar?: string
   github?: string
   linkedin?: string
+  skills: string[]
 }
 
 export interface ProjectStatus {
